@@ -1,7 +1,8 @@
 # Steedos CRM
 
-### install steedos cli
+### install steedos
 ```
+npm install steedos-server --global
 npm install steedos-cli --global
 ```
 
