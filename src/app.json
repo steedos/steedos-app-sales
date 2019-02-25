@@ -1,0 +1,9 @@
+{
+    "url": "/app/crm",
+    "name": "CRM",
+    "description": "CRM Example App",
+    "icon": "ion-ios-people-outline" ,
+	"icon_slds": "metrics" ,
+    "is_creator":true,
+    "objects": ["crm_accounts"]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "crm_accounts",
+    "icon": "accounts",
+    "enable_files": true,
+	"enable_search": true,
+	"enable_tasks": true,
+	"enable_notes": false,
+	"enable_api": true,
+	"enable_share": true,
+	"enable_chatter": true,
+    "fields": {
+        "name": {
+			"label": "名称2",
+            "type": "text"
+        }
+    },
+    "list_views":{
+		"all": {
+			"label":"全部",
+            "columns":["name"]	
+        }
+    }
+}

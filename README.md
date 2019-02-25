@@ -1,1 +1,2 @@
-# app-crm
+# crm
+CRM app sample
