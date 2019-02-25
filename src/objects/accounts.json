@@ -12,6 +12,9 @@
         "name": {
 			"label": "名称2",
             "type": "text"
+        },"name3": {
+			"label": "名称3",
+            "type": "text"
         }
     },
     "list_views":{
