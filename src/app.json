@@ -4,6 +4,6 @@
     "description": "CRM Example App",
     "icon": "ion-ios-people-outline" ,
 	"icon_slds": "metrics" ,
-    "is_creator":true,
-    "objects": ["crm_accounts"]
+    "is_creator": true,
+    "objects": ["crm_accounts", "reports"]
 }

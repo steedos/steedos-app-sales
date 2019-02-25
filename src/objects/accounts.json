@@ -1,5 +1,6 @@
 {
     "name": "crm_accounts",
+    "label": "客户",
     "icon": "accounts",
     "enable_files": true,
 	"enable_search": true,
@@ -10,10 +11,7 @@
 	"enable_chatter": true,
     "fields": {
         "name": {
-			"label": "名称2",
-            "type": "text"
-        },"name3": {
-			"label": "名称3",
+			"label": "名称",
             "type": "text"
         }
     },
