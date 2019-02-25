@@ -2,7 +2,7 @@
 
 ### install steedos cli
 ```
-npm install steedos-cli -global
+npm install steedos-cli --global
 ```
 
 ### install node_modules
