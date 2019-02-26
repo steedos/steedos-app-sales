@@ -1,7 +1,7 @@
 {
     "name": "crm_accounts",
     "label": "客户",
-    "icon": "accounts",
+    "icon": "account",
     "enable_files": true,
 	"enable_search": true,
 	"enable_tasks": true,
