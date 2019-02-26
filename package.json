@@ -16,5 +16,8 @@
     "url": "https://github.com/steedos/crm/issues"
   },
   "homepage": "https://github.com/steedos/crm#readme",
-  "dependencies": {}
+  "dependencies": {
+    "chokidar": "2.1.2",
+    "js-yaml": "3.12.1"
+  }
 }
