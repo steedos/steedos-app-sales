@@ -1,6 +1,7 @@
 var fs = require("fs");
 var path = require("path");
-var yaml = require('js-yaml')
+var yaml = require('js-yaml');
+var mkdirp = require('mkdirp');
 
 var appFileName = 'app.json'
 var appObjectFolderName = 'objects'
@@ -70,5 +71,16 @@ if(fs.statSync(appSrcDirectory).isDirectory()){
     //监控apps文件夹变化
     fs.watch(appSrcDirectory, function(eventType, filename){
         console.log('fs.watch', eventType, filename);
+    })
+}
+
+// 将Creator.Objects 转为yaml文件存在本地
+if (Creator.Objects) {
+    let ymlObjDirectory = path.resolve(path.join(__dirname, "yaml"));
+    mkdirp.sync(ymlObjDirectory);
+    _.each(Creator.Objects, function(obj) {
+        let objFilePath = path.resolve(path.join(ymlObjDirectory, obj.name + '.yml'));
+        let dataStr = yaml.dump(obj);
+        fs.writeFileSync(objFilePath, dataStr);
     })
 }
