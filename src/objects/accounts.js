@@ -1,4 +1,5 @@
 module.export = {
+    object_name: "crm_accounts",
     beforeInsert: function(){
 
     },
@@ -21,6 +22,9 @@ module.export = {
 
     },
     beforeSubmit: function (){
+
+    },
+    action1: function (){
 
     }
 }
