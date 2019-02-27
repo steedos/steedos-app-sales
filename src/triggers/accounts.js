@@ -23,8 +23,5 @@ module.export = {
     },
     beforeSubmit: function (){
 
-    },
-    action1: function (){
-
     }
 }
