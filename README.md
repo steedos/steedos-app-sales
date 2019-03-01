@@ -16,6 +16,12 @@ npm install steedos-cli --global
 steedos run
 ```
 
+### 调试
+```
+set NODE_OPTIONS=--inspect
+steedos run
+```
+
 ### 定制
 - [对象和字段](steedos-app/objects)
 - [触发器](steedos-app/triggers)
