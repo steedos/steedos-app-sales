@@ -39,7 +39,7 @@ fields:
   credit_code:
     type: text
     label: 统一社会信用代码
-    required: true
+    required: false
     name: credit_code
   registered_capital:
     type: currency
@@ -69,10 +69,10 @@ fields:
     type: textarea
     is_wide: true
     name: description
-  company_id:
-    required: true
-    omit: false
-    hidden: false
+  # company_id:
+  #   required: true
+  #   omit: false
+  #   hidden: false
 list_views:
   recent:
     label: 最近查看
