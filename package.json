@@ -1,5 +1,5 @@
 {
-  "name": "@steedos/app-crm",
+  "name": "@steedos/steedos-crm-app",
   "version": "1.0.0",
   "description": "CRM app sample",
   "main": "main.js",
@@ -8,16 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steedos/crm.git"
+    "url": "git+https://github.com/steedos/steedos-crm-app.git"
   },
   "author": "Jack Zhuang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/steedos/crm/issues"
+    "url": "https://github.com/steedos/steedos-crm-app/issues"
   },
-  "homepage": "https://github.com/steedos/crm#readme",
-  "dependencies": {
-    "chokidar": "2.1.2",
-    "js-yaml": "3.12.1"
-  }
+  "homepage": "https://github.com/steedos/steedos-crm-app#readme"
 }
