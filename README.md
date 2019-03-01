@@ -16,6 +16,16 @@ npm install steedos-cli --global
 steedos run
 ```
 
+### 定制
+- [对象和字段](steedos-app/objects)
+- [触发器](steedos-app/triggers)
+
+### 界面效果
+![按日查看会议](docs/account-view.png)
+
+### 文档
+- [Steedos 开发文档](https://github.com/steedos/help/blob/master/zh-cn/creator/README.md)
+
 ### 调试
 运行steedos之前，启用调试参数
 ```
@@ -26,13 +36,3 @@ steedos run
 ```
 chrome://inspect
 ```
-
-### 定制
-- [对象和字段](steedos-app/objects)
-- [触发器](steedos-app/triggers)
-
-### 界面效果
-![按日查看会议](docs/account-view.png)
-
-### 文档
-- [Steedos 开发文档](https://github.com/steedos/help/blob/master/zh-cn/creator/README.md)
