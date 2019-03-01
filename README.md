@@ -17,9 +17,14 @@ steedos run
 ```
 
 ### 调试
+运行steedos之前，启用调试参数
 ```
 set NODE_OPTIONS=--inspect
 steedos run
+```
+打开 Chrome，输入
+```
+chrome://inspect
 ```
 
 ### 定制
