@@ -8,12 +8,11 @@
 ### 安装 Steedos 开发工具
 ```
 npm install steedos-server --global
-npm install steedos-cli --global
 ```
 
 ### 运行
 ```
-steedos run
+node server
 ```
 
 ### 定制
@@ -25,14 +24,3 @@ steedos run
 
 ### 文档
 - [Steedos 开发文档](https://github.com/steedos/help/blob/master/zh-cn/creator/README.md)
-
-### 调试
-运行steedos之前，启用调试参数
-```
-set NODE_OPTIONS=--inspect
-steedos run
-```
-打开 Chrome，输入
-```
-chrome://inspect
-```
