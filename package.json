@@ -15,10 +15,11 @@
   "bugs": {
     "url": "https://github.com/steedos/steedos-crm-app/issues"
   },
+  "dependencies": {
+    "@steedos/app": "^1.0.0"
+  },
   "homepage": "https://github.com/steedos/steedos-crm-app#readme",
   "steedos": {
-    "plugins": [
-      "@steedos/steedos-admin-app"
-    ]
+    "plugins": []
   }
 }
