@@ -21,5 +21,8 @@
   "homepage": "https://github.com/steedos/steedos-crm-app#readme",
   "steedos": {
     "plugins": []
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
