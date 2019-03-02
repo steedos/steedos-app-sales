@@ -1,8 +1,8 @@
 {
   "name": "@steedos/steedos-crm-app",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CRM app sample",
-  "main": "index.js",
+  "main": "steedos-app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,8 @@
     "url": "https://github.com/steedos/steedos-crm-app/issues"
   },
   "dependencies": {
-    "@steedos/app": "^1.0.0"
+    "@steedos/app": "^1.1.0",
+    "@steedos/meteor-bundle-runner": "^1.1.2"
   },
   "homepage": "https://github.com/steedos/steedos-crm-app#readme",
   "steedos": {
