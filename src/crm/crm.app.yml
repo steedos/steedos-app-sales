@@ -1,0 +1,17 @@
+_id: crm
+name: CRM
+description: Manage customers, business opportunities and prospects.
+icon_slds: opportunity
+is_creator: true
+sort: 1010
+objects:
+  - leads
+  - opportunity
+  - accounts
+  - contacts
+  - tasks
+  - events  
+  - reports
+mobile_objects:
+  - leads
+  - opportunity

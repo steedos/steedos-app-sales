@@ -7,7 +7,7 @@
 华炎办公基于[开源低代码开发平台华炎魔方](https://www.steedos.com/platform/)开发，内置审批、公告、知识、任务、日程等常用办公管理功能，并嵌入了合同管理、CRM等标准模块。系统内核所有业务对象均可进行扩展或者自定义。
 
 - 注册华炎云账户，在线试用[华炎办公](https://cn.steedos.com/)
-- 下载并运行[项目源码](https://github.com/steedos/steedos-app-sales)。
+- 下载并运行[项目源码](https://github.com/steedos/steedos-project-saas)。
 - 查看[系统帮助](/help/)
 
 # 了解更多
@@ -23,7 +23,7 @@
 华炎办公是使用华炎魔方开发的SaaS版本办公平台，内置审批、公告、知识、任务、日程等常用办公管理功能，并嵌入了合同管理、CRM等标准模块。
 
 - 注册华炎云账户，在线试用[华炎办公](https://cn.steedos.com/)
-- 下载并运行[项目源码](https://github.com/steedos/steedos-app-sales)。
+- 下载并运行[项目源码](https://github.com/steedos/steedos-project-saas)。
 - 查看[系统帮助](https://www.steedos.com/help/)
 
 ## 项目源码
@@ -33,3 +33,26 @@
 - [华炎魔方内核源码](https://github.com/steedos/object-server)
 - [合同管理系统源码](https://github.com/steedos/steedos-contracts-app)
 - [费控管理系统源码](https://github.com/steedos/steedos-project-dzug)
+
+## cn部署及更新说明
+
+修改steedos-project-saas/docker-compose.yml 及 steedos-project-saas/docker/apps2/docker-compose.yml文件中image: steedos-project-saas:{版本号}
+
+apps服务器: 
+
+- ssh root@apps.steedos.com
+- cd /srv/git/steedos-project-saas
+- git checkout master
+- git pull
+- docker-compose build --no-cache
+- docker-compose up -d --force-recreate
+
+apps2服务器：
+
+- ssh root@apps2.steedos.com
+- cd /srv/git/steedos-project-saas
+- git checkout master
+- git pull
+- docker-compose build --no-cache
+- cd docker/apps2
+- docker-compose up -d --force-recreate
