@@ -1,4 +1,4 @@
 datasources:
-  default: 
-    objectFiles: 
+  default:
+    objectFiles:
       - ./src/**
