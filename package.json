@@ -5,6 +5,7 @@
   "engines": {
     "node": ">=12"
   },
+  "homepage": "https://developer.steedos.com",
   "main": "server.js",
   "scripts": {
     "debug": "nodemon server.js",
@@ -29,17 +30,16 @@
     "access": "public"
   },
   "dependencies": {
+    "dotenv-flow": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
     "@steedos/accounts": "^1.19.10",
     "@steedos/steedos-plugin-workflow": "^2.0.9",
     "aliyun-sdk": "1.12.3",
-    "dotenv-flow": "^3.1.0",
     "steedos-server": "^1.21.6",
     "xiaomi-push": "1.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  },
-  "homepage": "https://developer.steedos.com",
   "resolutions": {
     "**/lodash": "^4.17.15",
     "**/handlebars": "^4.3.0",
