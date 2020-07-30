@@ -1,14 +1,32 @@
-# 华炎办公
+# CRM 客户关系管理系统
 
-华炎办公是深受公司员工喜爱的云端企业管理软件，可以帮助您的团队随时随地的沟通与协作。
+使用 Steedos 快速开发客户关系管理系统， 在华炎魔方系统中作为插件使用。
 
-![华炎办公界面效果图](https://steedos.com/assets/products/workflow.png)
+### 安装开发环境
 
-华炎办公基于[开源低代码开发平台华炎魔方](https://www.steedos.com/platform/)开发，内置审批、公告、知识、任务、日程等常用办公管理功能，并嵌入了合同管理、CRM等标准模块。系统内核所有业务对象均可进行扩展或者自定义。
+- [Install NodeJS, v10.0.0 or later.](https://nodejs.org/en/)
+- [Install MongoDB Community Server v3.4 or later](https://www.mongodb.com/download-center/community)
 
-- 注册华炎云账户，在线试用[华炎办公](https://cn.steedos.com/)
-- 下载并运行[项目源码](https://github.com/steedos/steedos-app-sales)。
-- 查看[系统帮助](/help/)
+### 安装包
+
+```
+npm install @steedos/steedos-crm-app
+```
+
+或者
+
+```
+yarn add @steedos/steedos-crm-app
+```
+
+### 配置
+
+在系统的 steedos-config.yml 中配置 plugins：
+
+```yaml
+plugins:
+  - "@steedos/steedos-crm-app"
+```
 
 # 了解更多
 
@@ -20,16 +38,8 @@
 
 ## 项目效果演示
 
-华炎办公是使用华炎魔方开发的SaaS版本办公平台，内置审批、公告、知识、任务、日程等常用办公管理功能，并嵌入了合同管理、CRM等标准模块。
+华炎办公是使用华炎魔方开发的 SaaS 版本办公平台，内置审批、公告、知识、任务、日程等常用办公管理功能，并嵌入了合同管理、CRM 等标准模块。
 
 - 注册华炎云账户，在线试用[华炎办公](https://cn.steedos.com/)
-- 下载并运行[项目源码](https://github.com/steedos/steedos-app-sales)。
+- 下载并运行[项目源码](https://github.com/steedos/steedos-project-saas)。
 - 查看[系统帮助](https://www.steedos.com/help/)
-
-## 项目源码
-
-华炎魔方是[开源低代码开发平台](https://github.com/steedos/)，我们将所有源码开源，与合作伙伴一起共建低代码开发平台生态体系。
-
-- [华炎魔方内核源码](https://github.com/steedos/object-server)
-- [合同管理系统源码](https://github.com/steedos/steedos-contracts-app)
-- [费控管理系统源码](https://github.com/steedos/steedos-project-dzug)
